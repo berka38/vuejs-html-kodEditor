@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# HTML Kod Editörü - Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Proje Hakkında
+Bu proje Vue.js 3 ve Vite kullanılarak oluşturulmuştur. Projenin ana amacı, bir web sitesi içinde HTML kodlarınızı yazarak web projelerinizin ön tasarımlarını görebileceğiniz bir HTML kod editörü sağlamaktır.
 
-## Recommended IDE Setup
+## Proje İçerisinde Kullanılanlar
+- Vite
+- Vue.js
+- CodeMirror
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Projenin Çalıştırılması
+Aşağıdaki adımları izleyerek projeyi çalıştırabilirsiniz:
+1. İlk olarak [Vite](https://vitejs.dev/) ve [Vue.js](https://vuejs.org/) indirin.
+2. Projeyi bulunduğu sayfaya gidin ve sağ üst köşedeki yeşil "Code" düğmesine tıklayarak projeyi indirin.
+3. Kod düzenleyicinizden veya terminalden projenin bulunduğu dizine gidin.
+4. Terminale `npm run dev` komutunu yazın.
+5. Proje başladıktan sonra, terminalde projenin çalıştığı host ve port bilgisini göreceksiniz. Bu bilgiyi kopyalayın ve bir tarayıcıda açın.
+
+Proje artık aktif durumda olacak ve HTML kodlarınızı ve CSS kodlarınızı bu kod editörü aracılığıyla yazabilirsiniz.
